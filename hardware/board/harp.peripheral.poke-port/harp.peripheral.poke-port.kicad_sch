@@ -6187,6 +6187,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/3m/37203-62B3-003PL/1642668"
+			(at 21.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1e601800-3c34-4581-9535-7855e9cc370d")
 		)
