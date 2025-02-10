@@ -2519,6 +2519,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 76.2) (xy 140.97 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428079ea-17ea-4a7a-9141-58b0014325b9")
+	)
+	(wire
+		(pts
 			(xy 118.11 132.08) (xy 118.11 134.62)
 		)
 		(stroke
@@ -2859,6 +2869,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 76.2) (xy 140.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a076b96a-dea5-492e-ab8c-b15899461317")
+	)
+	(wire
+		(pts
 			(xy 120.65 91.44) (xy 123.19 91.44)
 		)
 		(stroke
@@ -2876,6 +2896,16 @@
 			(type default)
 		)
 		(uuid "a6f95217-4724-45aa-ba04-7b4bd085c42d")
+	)
+	(wire
+		(pts
+			(xy 144.78 76.2) (xy 144.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abed6ef4-8e43-4100-9341-3785284fd230")
 	)
 	(wire
 		(pts
@@ -3026,16 +3056,6 @@
 			(type default)
 		)
 		(uuid "e075ed7c-7883-4609-848a-48a0b74f6943")
-	)
-	(wire
-		(pts
-			(xy 140.97 80.01) (xy 140.97 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e11d3a14-1fd8-4527-9959-d20f68b348c7")
 	)
 	(wire
 		(pts
@@ -3275,8 +3295,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 116.84 93.98 90)
+		(property "Value" "127"
+			(at 116.84 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,7 +3312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 116.84 91.44 0)
 			(effects
 				(font
@@ -3303,6 +3323,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 116.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 116.84 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "RC0603FR-07127RL"
+			(at 116.84 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07127RL/726926"
+			(at 116.84 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,6 +4102,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 140.97 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c08210c-5974-4cac-b851-373aa930ee0a")
+		(property "Reference" "R4"
+			(at 138.43 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 140.97 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 142.748 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-SR_20105_RoHS_L_10.pdf"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/SR0603FR-7T100RL/9373096"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "SR0603FR-7T100RL"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "1/4W"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bb839ae-03b0-427c-a7a8-49b89c69d4a3")
+		)
+		(pin "2"
+			(uuid "81ce36d3-5a44-4d4a-98e5-dff63ba61ad4")
+		)
+		(instances
+			(project "harp.peripheral.poke-port"
+				(path "/1b972b53-ab24-492a-9bd8-aafac0ef44ae"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 118.11 40.64 0)
 		(mirror y)
@@ -4082,7 +4241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad-lib:1226AS-H-1R5N=P2"
+		(property "Footprint" "kicad-lib:L_Murata_1226AS-H-1R5N=P2"
 			(at 118.11 40.64 0)
 			(effects
 				(font
@@ -4196,7 +4355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 152.4 29.21 0)
 			(effects
 				(font
@@ -4206,6 +4365,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 152.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 152.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "RC0402FR-071ML"
+			(at 152.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-071ML/726515"
 			(at 152.4 29.21 0)
 			(effects
 				(font
@@ -4691,7 +4877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
 			(at 152.4 38.1 0)
 			(effects
 				(font
@@ -4701,6 +4887,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 152.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer Electronics, Inc."
+			(at 152.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "RN73H1ETTP1113F25"
+			(at 152.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RN73H1ETTP1113F25/9916912"
 			(at 152.4 38.1 0)
 			(effects
 				(font
@@ -4742,7 +4955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1pF"
+		(property "Value" "10pF"
 			(at 160.02 40.64 0)
 			(effects
 				(font
@@ -4751,7 +4964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.9852 41.91 0)
 			(effects
 				(font
@@ -4760,7 +4973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H100JA01-01.pdf"
 			(at 160.02 38.1 0)
 			(effects
 				(font
@@ -4778,7 +4991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" ""
+		(property "Manufacturer Number" "GRM1555C1H100JA01D"
 			(at 160.02 38.1 0)
 			(effects
 				(font
@@ -4787,7 +5000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 160.02 38.1 0)
 			(effects
 				(font
@@ -4796,7 +5009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H100JA01D/3661907"
 			(at 160.02 38.1 0)
 			(effects
 				(font
@@ -5366,7 +5579,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 140.97 80.01 180)
+		(at 144.78 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5374,7 +5587,7 @@
 		(dnp no)
 		(uuid "b6b808b9-caf3-46c7-8f65-b6c219d530e3")
 		(property "Reference" "#PWR08"
-			(at 140.97 73.66 0)
+			(at 144.78 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5596,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 76.2 0)
+			(at 144.78 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 80.01 0)
+			(at 144.78 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +5613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 80.01 0)
+			(at 144.78 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5622,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 80.01 0)
+			(at 144.78 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,6 +5696,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Omron Electronics Inc-EMC Div"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/EE-SX1140/1789461"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "EE-SX1140"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "C"
 			(uuid "b22676ac-a3e3-479e-9b32-60af87975bb2")
 		)
@@ -5499,75 +5739,6 @@
 			(project ""
 				(path "/1b972b53-ab24-492a-9bd8-aafac0ef44ae"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 140.97 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bef377b6-ef8b-471f-b360-9d5cba46d8f0")
-		(property "Reference" "R4"
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 142.24 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 139.192 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 140.97 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "41a0bb87-5d2f-49d6-a075-afe6378b5640")
-		)
-		(pin "1"
-			(uuid "90959106-9375-4b8a-9781-d84a0be30218")
-		)
-		(instances
-			(project ""
-				(path "/1b972b53-ab24-492a-9bd8-aafac0ef44ae"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5769,6 +5940,15 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
+			(at 129.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/TPS63060DSCR/2809529"
 			(at 129.54 35.56 0)
 			(effects
 				(font
