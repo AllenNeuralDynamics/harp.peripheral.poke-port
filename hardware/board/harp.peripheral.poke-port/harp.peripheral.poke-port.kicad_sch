@@ -3158,6 +3158,19 @@
 		)
 		(uuid "72a17a3e-f9e8-4a4c-9519-cae6cc9d55d6")
 	)
+	(text "FIXME:\nR4 should be ~500 Ohms."
+		(exclude_from_sim no)
+		(at 151.13 85.09 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7fa2d423-659c-4030-895f-e4d8615a70d4")
+	)
 	(text "Diode Specs:\n* Vf = 1.2V\n* Imax = 50mA"
 		(exclude_from_sim no)
 		(at 113.03 77.47 0)
