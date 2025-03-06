@@ -6115,7 +6115,7 @@
 			(at -2.7 0 180)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "898893f8-a398-4d28-b452-3d2b892b6c3b")
+			(uuid "ad504e22-db1d-426e-9c78-c0cc2d800897")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6129,7 +6129,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fe1c4101-f2a0-4fb3-9131-cfa091cd1d3a")
+			(uuid "f475660e-f618-4c94-b6bd-2ac23ea26f05")
 			(effects
 				(font
 					(size 1 1)
@@ -6143,7 +6143,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ffa9369d-4e8c-4ac6-8156-831745d84379")
+			(uuid "45106370-6bd4-45a8-9f8e-ea2be3871c45")
 			(effects
 				(font
 					(size 1 1)
@@ -6157,7 +6157,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "98cb80e1-36a6-4252-af08-20b979fa70db")
+			(uuid "fa8412bb-db32-461f-93a9-ce103a504a18")
 			(effects
 				(font
 					(size 1 1)
@@ -6171,7 +6171,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "83f5f378-6d3e-4849-accd-196f1fac3b56")
+			(uuid "2438a91f-3119-41ad-be11-68b79d8b42cf")
 			(effects
 				(font
 					(size 1 1)
@@ -6227,6 +6227,30 @@
 		(sheetname "Root")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr through_hole)
+		(fp_poly
+			(pts
+				(xy -7.5 0.5) (xy -6 0.5) (xy -6 1) (xy -5 0) (xy -6 -1) (xy -6 -0.5) (xy -7.5 -0.5)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.SilkS")
+			(uuid "8a12405e-f8ce-4546-aab7-8a68213ff358")
+		)
+		(fp_poly
+			(pts
+				(xy 5 0.5) (xy 6.5 0.5) (xy 6.5 1) (xy 7.5 0) (xy 6.5 -1) (xy 6.5 -0.5) (xy 5 -0.5)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.SilkS")
+			(uuid "8b7ee8ff-7530-42e5-b4e4-4c0559167bd8")
+		)
 		(fp_rect
 			(start -12 3)
 			(end 12 -3)
@@ -6236,7 +6260,7 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "18782230-8035-4622-b695-0b4e1b8e7f4c")
+			(uuid "e4dbc52e-d995-4f04-82f3-1fc9f3d98c6f")
 		)
 		(fp_rect
 			(start -11.5 2.5)
@@ -6247,14 +6271,40 @@
 			)
 			(fill none)
 			(layer "B.Fab")
-			(uuid "207df704-4faf-4fc2-adcc-d8ad5625ac10")
+			(uuid "c84dbc64-b1cd-41d9-84fc-4f56c40454d5")
+		)
+		(fp_text user "Japan"
+			(at 9 0 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "5b233e00-0b7e-4fcb-8315-1c67015dfdb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify bottom mirror)
+			)
+		)
+		(fp_text user "Omron"
+			(at -8 0 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "dc9766d2-6811-490a-b347-abe083509c70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify bottom mirror)
+			)
 		)
 		(fp_text user "U"
 			(at 0 4.03 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d7b27582-6f4d-43cd-9262-fe9de127f22b")
+			(uuid "c1945f47-a3fa-4ebb-b042-ac5a3e31572a")
 			(effects
 				(font
 					(size 1 1)
@@ -6268,7 +6318,7 @@
 			(size 3.2 3.2)
 			(drill 3.2)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "f7a27e43-66f7-4506-81ca-5192c1a6de8a")
+			(uuid "f05d85c8-2365-4cc6-b4d4-f6b2736d5081")
 		)
 		(pad "A" thru_hole circle
 			(at -9.95 0.97 270)
@@ -6278,7 +6328,7 @@
 			(remove_unused_layers no)
 			(net 9 "Net-(R3-Pad2)")
 			(pintype "passive")
-			(uuid "ff46fe4d-beaa-4ff0-8f0b-0ad48b038e18")
+			(uuid "fdde29a4-94c0-4c06-8426-e9e86de8566e")
 		)
 		(pad "C" thru_hole circle
 			(at 9.95 -0.97 270)
@@ -6288,7 +6338,7 @@
 			(remove_unused_layers no)
 			(net 4 "+5V")
 			(pintype "open_collector")
-			(uuid "feffdc6b-c190-4564-bf90-a7256a581deb")
+			(uuid "99ed29a7-4494-48ea-9a3b-23b2c0ca5887")
 		)
 		(pad "E" thru_hole circle
 			(at 9.95 0.97 270)
@@ -6298,7 +6348,7 @@
 			(remove_unused_layers no)
 			(net 10 "/POKE")
 			(pintype "open_emitter")
-			(uuid "475b5643-6181-4d93-a4dc-55df270f0eb1")
+			(uuid "e701f2ac-53de-4958-8788-e9983f8e6930")
 		)
 		(pad "K" thru_hole circle
 			(at -9.95 -0.97 270)
@@ -6308,11 +6358,11 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "a793f291-07cb-4bd0-9957-a1b7bd075b81")
+			(uuid "7c2c39f8-1eec-4c06-9092-7a5eac3797f1")
 		)
 		(model "/home/poofjunior/projects/kicad_libraries/kicad-lib/kicad-lib.3dshapes/Omron_EE_SX1140.step"
 			(offset
-				(xyz -9.95 -0.97 0)
+				(xyz -10 -1 -0.015)
 			)
 			(scale
 				(xyz 1 1 1)

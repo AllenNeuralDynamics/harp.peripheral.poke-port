@@ -519,7 +519,7 @@
       "plot": "exports/gerbers/",
       "pos_files": "exports/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "harp.peripheral.poke-port.step",
       "svg": "",
       "vrml": ""
     },
