@@ -1,0 +1,27 @@
+### Footprint positions - created on 2026-03-05T20:45:50-0800 ###
+### Printed by KiCad version 9.0.3
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                       Package                                                  PosX       PosY       Rot  Side
+C1        0.1uF                     C_0603_1608Metric                                     -4.5150     3.2100  180.0000  top
+C2        10uF                      C_0805_2012Metric                                     -9.0150     7.8100   90.0000  top
+C3        22uF                      C_0805_2012Metric                                     -1.2000     5.4000  -90.0000  top
+C4        22uF                      C_0805_2012Metric                                      3.0000     4.7000  -90.0000  top
+C5        22uF                      C_0805_2012Metric                                      0.8000     5.4000  -90.0000  top
+C6        10uF                      C_0805_2012Metric                                     -9.9000     4.8000  180.0000  top
+C7        10pF                      C_0402_1005Metric                                     -4.5900    -0.8100  -90.0000  top
+C8        0.1uF                     C_0603_1608Metric                                     -8.2000    -5.3000  -90.0000  top
+J1        Conn_01x03_Socket         3M_Mini-Clamp-Socket-37203-62B3-003PL-1x3_Vertical     8.0000     0.0000    0.0000  top
+L1        1.5uH                     L_Murata_1226AS-H-1R5N=P2                             -5.8150    10.3100    0.0000  top
+R1        100                       R_0603_1608Metric                                     -0.4000    -4.2000    0.0000  top
+R2        100                       R_0603_1608Metric                                     -0.3000    -6.0000    0.0000  top
+R3        127                       R_0603_1608Metric                                      0.0000     8.2000  180.0000  top
+R4        100                       R_0603_1608Metric                                      0.0000    -8.2000    0.0000  top
+R5        1M                        R_0402_1005Metric                                     -4.5900     1.0900  -90.0000  top
+R6        111K                      R_0402_1005Metric                                     -5.5900     0.0900  -90.0000  top
+REF**     Fiducial_0.5mm_Mask1.5mm  Fiducial_0.5mm_Mask1.5mm                               3.0000    -5.9000    0.0000  top
+REF**     Fiducial_0.5mm_Mask1.5mm  Fiducial_0.5mm_Mask1.5mm                             -10.0000    -4.9000    0.0000  top
+REF**     Fiducial_0.5mm_Mask1.5mm  Fiducial_0.5mm_Mask1.5mm                               0.0000    12.0000    0.0000  top
+U1        TPS63060                  Texas_S-PWSON-N10_ThermalVias                         -5.8000     6.6000    0.0000  top
+U3        74LVCH2T45DC              VSSOP-8_2.3x2mm_P0.5mm                                -4.7000    -3.9000    0.0000  top
+## End

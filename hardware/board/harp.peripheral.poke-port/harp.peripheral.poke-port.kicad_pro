@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 3.8,
-          "height": 3.2,
-          "width": 3.2
+          "height": 2.8,
+          "width": 2.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -59,10 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        [
-          "courtyards_overlap|156662770|92605000|bed6d8d7-3526-4757-aded-1724f56ac2d8|ec070ee0-b9af-4696-9597-253d9ca26623",
-          ""
-        ],
         [
           "lib_footprint_mismatch|145115000|103900000|d842e578-f142-4729-8a02-10098b781dae|00000000-0000-0000-0000-000000000000",
           ""
@@ -436,10 +432,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -452,9 +453,14 @@
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -536,8 +542,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "exports/gerbers/",
-      "pos_files": "exports/",
+      "plot": "fab_files/",
+      "pos_files": "fab_files/",
       "specctra_dsn": "",
       "step": "harp.peripheral.poke-port.step",
       "svg": "",
@@ -655,6 +661,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -689,6 +696,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

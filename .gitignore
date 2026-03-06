@@ -7,7 +7,7 @@ hardware/board/*/exports/
 *.kicad_prl
 *.kicad_sch-bak
 *.kicad_sch.lck
-#*.kicad_pcb.lck
+*.kicad_pcb.lck
 fp-info-cache
 
 
