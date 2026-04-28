@@ -337,7 +337,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/82ed7f0f-1fea-482d-b17e-e5b7ba872986")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -604,7 +604,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6abd28e6-ddc8-41ac-b2b7-3be95a9c6b30")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -845,7 +845,7 @@
 		)
 		(property ki_fp_filters "Texas*S*PWSON*N10*")
 		(path "/c2b1c83a-a45e-4d5d-858e-8202190f077e")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1627,7 +1627,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/34624253-196f-4f9a-b9da-4c0fc1d09cbe")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1894,7 +1894,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/12b9db6c-79eb-45d0-bec7-f3485f94da36")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2161,7 +2161,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/2f37f628-7b9d-416d-80e9-517c6966ac5b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2497,7 +2497,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "510"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2509,7 +2509,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-SR_20105_RoHS_L_10.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2535,7 +2535,7 @@
 				)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/SR0603FR-7T100RL/9373096"
+		(property "Link" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73P1JTTD5100F/10188211"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2548,7 +2548,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "KOA Speer Electronics, Inc."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2561,7 +2561,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Number" "SR0603FR-7T100RL"
+		(property "Manufacturer Number" "SG73P1JTTD5100F"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2574,7 +2574,7 @@
 				)
 			)
 		)
-		(property "Notes" "1/4W"
+		(property "Notes" "1/3W"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2602,7 +2602,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/4c08210c-5974-4cac-b851-373aa930ee0a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2843,7 +2843,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/0882e4ca-1fe4-4fe6-8840-26c7795b4415")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3084,7 +3084,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/7c31db0e-289a-4686-8ee8-5c94ad35485c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3325,7 +3325,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/42aa9582-5fe1-492d-bf9a-a59464e1629d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3566,7 +3566,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ca765a61-09d8-4e5b-be59-6450f9f2b8c2")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3807,7 +3807,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/41d79b4a-434a-4f7f-a31b-6a0b401509d9")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4174,7 +4174,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/53c40e94-6eb0-48bd-8046-056d7288d1f9")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4511,7 +4511,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/4d31c40e-0ca1-4fa0-b193-66c7b5a41ca5")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4845,7 +4845,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/50829017-6eae-4683-82a4-aeea94d0a492")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5086,7 +5086,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b6f045c-8e42-4c62-880a-022aa15366fc")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5325,7 +5325,7 @@
 		)
 		(property ki_fp_filters "VSSOP*2.3x2mm*P0.5mm*")
 		(path "/9de3b242-f433-4ff7-8a35-02d6d5792a15")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5670,7 +5670,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ebabfbc0-9134-407a-9384-f0dcf13dcbaa")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr through_hole)
 		(fp_rect
@@ -6001,7 +6001,7 @@
 		)
 		(property ki_fp_filters "*ITR9608*")
 		(path "/b7749b53-c2b8-4efd-9c41-553cb64ff274")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "harp.peripheral.poke-port.kicad_sch")
 		(attr through_hole)
 		(fp_poly
